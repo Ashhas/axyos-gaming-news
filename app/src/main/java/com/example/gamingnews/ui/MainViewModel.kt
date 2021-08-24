@@ -13,10 +13,12 @@ import java.util.*
 
 class MainViewModel constructor(private val repository: RssRepositoryImpl) : ViewModel() {
 
+    var sourceFeed: RssFeed? = null
+
     fun getAllGematsuArticles() {
         viewModelScope.launch {
             val result = repository.getGematsuArticles()
-            Timber.i(result.toString())
+            sourceFeed = result
         }
     }
 
