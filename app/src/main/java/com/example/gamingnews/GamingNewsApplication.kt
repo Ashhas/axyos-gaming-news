@@ -1,7 +1,6 @@
 package com.example.gamingnews
 
 import android.app.Application
-import androidx.viewbinding.BuildConfig
 import com.example.gamingnews.di.networkModule
 import com.example.gamingnews.di.repositoryModule
 import com.example.gamingnews.di.viewModelModule
