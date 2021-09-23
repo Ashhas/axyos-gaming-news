@@ -36,8 +36,7 @@ class ArticleAdapter(private val context: Context, private val articles: List<Rs
         RecyclerView.ViewHolder(itemBinding.root) {
         fun bind(article: RssItem?) {
             itemBinding.tvArticleName.text = article?.itemTitle
-            itemBinding.tvArticleDescription.text = article?.itemLink
+            itemBinding.tvArticleDescription.text = article?.itemPubDate
         }
-
     }
 }
