@@ -20,7 +20,8 @@
             android:id="@+id/radioButtonGematsu"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Gematsu" />
+            android:text="Gematsu"
+            android:checked="true" />
 
         <RadioButton
             android:id="@+id/radioButtonIgn"

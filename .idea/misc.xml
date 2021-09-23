@@ -3,9 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Personal Projects/axyos-gaming-news/app/src/main/res/drawable/border.xml" value="0.4036458333333333" />
         <entry key="..\:/Personal Projects/axyos-gaming-news/app/src/main/res/layout/activity_main.xml" value="0.17980072463768115" />
         <entry key="..\:/Personal Projects/axyos-gaming-news/app/src/main/res/layout/item_article.xml" value="0.5" />
-        <entry key="..\:/Personal Projects/axyos-gaming-news/app/src/main/res/layout/list_item_article.xml" value="0.12777777777777777" />
+        <entry key="..\:/Personal Projects/axyos-gaming-news/app/src/main/res/layout/list_item_article.xml" value="0.25" />
       </map>
     </option>
   </component>
@@ -14,5 +15,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.12777777777777777" />
+      </ProjectState>
+    </option>
   </component>
 </project>

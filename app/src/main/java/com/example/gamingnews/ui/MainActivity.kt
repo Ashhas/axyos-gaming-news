@@ -18,9 +18,8 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        //ListView
+        //RecycleView
         mainViewModel.sourceFeed.observe(this, Observer { newFeed ->
-            //RecycleView Adapter
             binding.rvArticles.layoutManager = LinearLayoutManager(this)
             binding.rvArticles.adapter = ArticleAdapter(
                 context = this,
