@@ -9,4 +9,8 @@ class RssRepositoryImpl(private val api: RssService) : RssRepository {
     override suspend fun getGematsuArticles(): RssFeed {
         return api.getGematsuFeed()
     }
+
+    override suspend fun getIgnArticles(): RssFeed {
+        return api.getIgnFeed()
+    }
 }

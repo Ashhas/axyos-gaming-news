@@ -6,6 +6,9 @@ import retrofit2.http.GET
 
 interface RssService {
 
-    @GET("HP7b1uFM8k1ROWKM.xml")
+    @GET("Vp6GfTkvpjYKdylb.xml")
     suspend fun getGematsuFeed(): RssFeed
+
+    @GET("liHjzvsEKSyxRLjo.xml")
+    suspend fun getIgnFeed(): RssFeed
 }

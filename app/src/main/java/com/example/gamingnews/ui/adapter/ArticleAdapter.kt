@@ -5,14 +5,14 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.gamingnews.data.RssItem
-import com.example.gamingnews.databinding.ItemArticleBinding
+import com.example.gamingnews.databinding.ListItemArticleBinding
 
 class ArticleAdapter(private val context: Context, private val articles: List<RssItem>?) :
     RecyclerView.Adapter<ArticleAdapter.ArticleHolder>() {
 
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ArticleHolder {
-        val view = ItemArticleBinding.inflate(
+        val view = ListItemArticleBinding.inflate(
             LayoutInflater.from(context),
             parent,
             false
@@ -32,7 +32,7 @@ class ArticleAdapter(private val context: Context, private val articles: List<Rs
         return 0
     }
 
-    inner class ArticleHolder(private val itemBinding: ItemArticleBinding) :
+    inner class ArticleHolder(private val itemBinding: ListItemArticleBinding) :
         RecyclerView.ViewHolder(itemBinding.root) {
         fun bind(article: RssItem?) {
             itemBinding.tvArticleName.text = article?.itemTitle
