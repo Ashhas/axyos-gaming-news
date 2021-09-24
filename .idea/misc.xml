@@ -4,9 +4,15 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Personal Projects/axyos-gaming-news/app/src/main/res/drawable/border.xml" value="0.4036458333333333" />
-        <entry key="..\:/Personal Projects/axyos-gaming-news/app/src/main/res/layout/activity_main.xml" value="0.17980072463768115" />
+        <entry key="..\:/Personal Projects/axyos-gaming-news/app/src/main/res/layout-v21/activity_main.xml" value="0.1" />
+        <entry key="..\:/Personal Projects/axyos-gaming-news/app/src/main/res/layout/activity_details.xml" value="0.1" />
+        <entry key="..\:/Personal Projects/axyos-gaming-news/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Personal Projects/axyos-gaming-news/app/src/main/res/layout/fragment_first.xml" value="0.1" />
+        <entry key="..\:/Personal Projects/axyos-gaming-news/app/src/main/res/layout/fragment_gematsu.xml" value="0.1" />
+        <entry key="..\:/Personal Projects/axyos-gaming-news/app/src/main/res/layout/fragment_ign.xml" value="0.1" />
+        <entry key="..\:/Personal Projects/axyos-gaming-news/app/src/main/res/layout/fragment_second.xml" value="0.1287037037037037" />
         <entry key="..\:/Personal Projects/axyos-gaming-news/app/src/main/res/layout/item_article.xml" value="0.5" />
-        <entry key="..\:/Personal Projects/axyos-gaming-news/app/src/main/res/layout/list_item_article.xml" value="0.25" />
+        <entry key="..\:/Personal Projects/axyos-gaming-news/app/src/main/res/layout/list_item_article.xml" value="0.33" />
       </map>
     </option>
   </component>

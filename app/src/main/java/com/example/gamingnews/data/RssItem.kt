@@ -13,11 +13,11 @@ data class RssItem constructor(
     @param:Element(name = "description", required = true)
     val itemDescription: String = "",
 
+    @field:Element(name = "link", required = true)
+    @param:Element(name = "link", required = true)
+    val itemLink: String = "",
+
     @field:Element(name = "pubDate", required = true)
     @param:Element(name = "pubDate", required = true)
     val itemPubDate: String = "",
-
-    @field:Element(name = "link", required = true)
-    @param:Element(name = "link", required = true)
-    val itemLink: String = ""
 )
