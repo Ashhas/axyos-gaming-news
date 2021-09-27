@@ -1,6 +1,6 @@
 # Axyos Gaming News
 
-:camera: Gaming News App using [RSS.app] to fetch articles from sites that don't have an Public API. The main goal of this project is to practise with some Android development tools & concepts - (Kotlin, MVVM, Dependecy Injection, Architecture Components)
+:newspaper: Gaming News App using [RSS.app] to fetch articles from sites that don't have an Public API. The main goal of this project is to practise with some Android development tools & concepts - (Kotlin, MVVM, Dependecy Injection, Architecture Components)
 
 ## Screenshots
 <p>
@@ -21,9 +21,11 @@
 
 ## Things to Know ✓
 
-- Working with RSS.app wasn't as smooth as I expected. A lot of values (namely the article image) return a lot of HTML elements with them.
-  This means that i'll have to filter the URL's out of the big string (regular expression?) which increases the chaces something might go wrong
-- Due to the "intermediate" webpage that RSS.app has in trial mode, I can't open the the articles in a webview. The counter in the webpage doesn't count down if I open it in the     webview. That's why I choose to open the URL in the web browser instead.
+- Working with RSS.app wasn't as smooth as I expected. A lot of values (namely the article image) return a lot of HTML elements with them as well.
+  This means that I'll have to filter the URL's out of the retrieved string (w/ regular expressions) which increases the chances something might go wrong.
+  
+- Due to the "intermediate" webpage that RSS.app has in trial mode, I can't open the the articles in a android webview. The counter in the webpage doesn't count down when I do.     That's why I choose to open the URL in the web browser instead.
+
 - Due to the RSS.app trial there's also a limit on 5 articles received per URL.
 
 [RSS.app]:https://rss.app/
